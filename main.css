@@ -1,9 +1,6 @@
 .image {
-    flex: 1 0 10%;
     margin: 20px;
-    height: 300px;
-    width: 300px;
-  }
+}
 
 img {
   width: 300px;
@@ -12,7 +9,6 @@ img {
 }
 
   .gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     margin: 0 200px;
   }
