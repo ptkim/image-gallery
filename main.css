@@ -1,5 +1,10 @@
-.image {
-    margin: 20px;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
 
 img {
@@ -10,5 +15,9 @@ img {
 
   .gallery {
     display: grid;
-    margin: 0 200px;
+    max-width: 60%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 45px auto;
   }
